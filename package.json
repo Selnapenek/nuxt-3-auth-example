@@ -1,0 +1,21 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "nuxi dev",
+    "build": "nuxi build",
+    "start": "node .output/server/index.mjs",
+    "typecheck": "nuxi typecheck"
+  },
+  "devDependencies": {
+    "nuxt3": "latest",
+    "typescript": "^4.5.5"
+  },
+  "dependencies": {
+    "auth0-js": "^9.19.0",
+    "graphql": "^16.3.0",
+    "graphql-request": "^4.0.0",
+    "jwt-decode": "^3.1.2",
+    "qs": "^6.10.3",
+    "ramda": "^0.28.0"
+  }
+}
